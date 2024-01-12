@@ -12,3 +12,29 @@ body{
 .main{
   flex-grow: 1;
 }
+.cardContainer{
+border: 2px solid black;
+/* margin: 0 15%; */
+margin: 0 auto;
+padding: 0 10vh;
+}
+.section1, .section2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.section1{
+
+  margin: 5vh 0 10vh 0;
+}
+.section2{
+margin: 0 0 5vh 0;
+}
+.Card1{
+  border: 2px solid red;
+  padding: 10vh;
+  margin-left: 2vh;
+}
+.imgContainer{
+  border: 2px solid blue;
+}
