@@ -1,7 +1,6 @@
 import "./index.css";
 import Card1 from "./component/card1.jsx";
 import Card2 from "./component/card2.jsx";
-console.log("articles");
 function App() {
   return (
     <div className="App">
@@ -29,7 +28,7 @@ function App() {
 
 function Navbar() {
   
-  const givenUp = "kjøøøøøøøøøøtt";
+  const givenUp = "PlaceHolder titel";
 
   return (
     <header className="header">
