@@ -1,6 +1,14 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #FEDE39;
+}
+.header{
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  background-color: #F5F5F5;
+
 }
 
 .App{
@@ -13,6 +21,7 @@ body{
   flex-grow: 1;
 }
 .cardContainer{
+  background-color: #F5F5F5;
 border: 2px solid black;
 /* margin: 0 15%; */
 margin: 0 auto;
@@ -30,10 +39,15 @@ padding: 0 10vh;
 .section2{
 margin: 0 0 5vh 0;
 }
-.Card1{
+.Card1, .Card2{
   border: 2px solid red;
   padding: 10vh;
   margin-left: 2vh;
+  max-width: 10vh;
+  max-height: 10vh;
+}
+.Card2{
+  padding: 11.8vh 10vh;
 }
 .imgContainer{
   border: 2px solid blue;

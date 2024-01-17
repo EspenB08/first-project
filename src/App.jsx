@@ -1,45 +1,34 @@
 import "./index.css";
-
+import Card1 from "./component/card1.jsx";
+import Card2 from "./component/card2.jsx";
+console.log("articles");
 function App() {
-  console.log("test");
   return (
     <div className="App">
-      <Avbar></Avbar>
+      <Navbar></Navbar>
       <div className="cardContainer">
         <div className="section1">
           <Card1></Card1>
+          <Card2></Card2>
           <Card1></Card1>
-          <Card1></Card1>
+
         </div>
         <div className="section2">
+          <Card2></Card2>
           <Card1></Card1>
-          <Card1></Card1>
-          <Card1></Card1>
+          <Card2></Card2>
+      
         </div>
       </div>
 
-      <main className="main">
-        <h2>GIVEN UP</h2>
-      </main>
-      <footer className="footer">
-        <h2>contact me</h2>
-      </footer>
-    </div>
-  );
-}
-function Card1() {
-  return (
-    <div className="Card1">
-      <div className="imgContainer">
-        <img src="" alt="test" />
-      </div>
-      <h1 className="text1">hey</h1>
-      <h2 className="text2">hei</h2>
+
     </div>
   );
 }
 
-function Avbar() {
+
+function Navbar() {
+  
   const givenUp = "kjøøøøøøøøøøtt";
 
   return (
